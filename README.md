@@ -4,9 +4,17 @@ Ce projet visait à évaluer les performances réseau d'un réseau mesh wifi.
 Il s'agissait d'établir des protocoles de test et définir des architectures afin de réaliser des mesures de débit grâce à Iperf3.  
   
   3 Protocoles de test ont été effectués:  
-  - Arrangement linéaire des noeuds, avec mesures de débit en position fixe à chaque noeud du réseau maillé
-  - Arrangement en L des noeuds, avec mesures de débit en position fixe à chaque noeud du réseau maillé
+  - Arrangement linéaire des noeuds, avec mesures de débit en position fixe à chaque noeud du réseau maillé  
+    
+    ![Arrangement linéaire](lineaire.png)
+    
+  - Arrangement en L des noeuds, avec mesures de débit en position fixe à chaque noeud du réseau maillé  
+    
+    ![Arrangement en L](L.png)  
+    
   - Stream vidéo en arrangement linéaire des noeuds: déplacement le long du réseau afin d'observer d'éventuels latences lors de saut d'un noeud à l'autre  
+    
+ 
 
 Une Raspberry PI a été utilisée avec un OS installé et Iperf. La Raspberry était utilisée en tant que serveur, elle était connectée au point d'entrée.  
   
